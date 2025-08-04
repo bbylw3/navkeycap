@@ -1,0 +1,59 @@
+{
+  "name": "WebNav Hub - 精选网址导航",
+  "short_name": "WebNav Hub",
+  "description": "整合AI工具、开发资源、社交媒体、云存储等的一站式导航平台",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f4f5f7",
+  "theme_color": "#ff774a",
+  "orientation": "any",
+  "scope": "/",
+  "lang": "zh-CN",
+  "icons": [
+    {
+      "src": "/assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["productivity", "utilities", "navigation"],
+  "shortcuts": [
+    {
+      "name": "AI搜索",
+      "short_name": "AI搜索",
+      "description": "访问AI搜索工具",
+      "url": "/#ai-search",
+      "icons": [
+        {
+          "src": "/assets/shortcut-ai.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "实用工具",
+      "short_name": "工具",
+      "description": "访问实用工具",
+      "url": "/#tools",
+      "icons": [
+        {
+          "src": "/assets/shortcut-tools.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ]
+}

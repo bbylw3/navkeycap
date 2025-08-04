@@ -1,0 +1,26 @@
+# Robots.txt for WebNav Hub
+# Generated for optimal SEO
+
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://webnav-hub.example.com/sitemap.xml
+
+# Crawl delay (optional - adjust based on server capacity)
+Crawl-delay: 1
+
+# Disallow temp/cache directories if they exist
+Disallow: /temp/
+Disallow: /cache/
+Disallow: /*.tmp$
+
+# Allow specific bots
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
